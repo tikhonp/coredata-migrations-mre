@@ -74,6 +74,7 @@
 		439112CF2C8326C300892E89 /* Message+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Message+CoreDataClass.swift"; sourceTree = "<group>"; };
 		439112D12C83291C00892E89 /* Medsenger_8.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Medsenger_8.xcdatamodel; sourceTree = "<group>"; };
 		439112D32C832B2F00892E89 /* Medsenger_8.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Medsenger_8.xcdatamodel; sourceTree = "<group>"; };
+		439BF53D2C8380BF002D10EB /* Medsenger_9.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Medsenger_9.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -464,6 +465,7 @@
 		4391127F2C83256500892E89 /* Medsenger.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				439BF53D2C8380BF002D10EB /* Medsenger_9.xcdatamodel */,
 				439112D32C832B2F00892E89 /* Medsenger_8.xcdatamodel */,
 				439112D12C83291C00892E89 /* Medsenger_8.xcdatamodel */,
 				439112882C83256500892E89 /* Medsenger_2.xcdatamodel */,

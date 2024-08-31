@@ -34,8 +34,8 @@ public actor PersistenceService {
         
 #if DEBUG && true
         // CHECK if two versions of model can be migrated
-        let version1 = "Medsenger_6.mom"
-        let version2 = "Medsenger_8.mom"
+        let version1 = "Medsenger_7.mom"
+        let version2 = "Medsenger_9.mom"
         
         do {
             guard let model1 =  NSManagedObjectModel(contentsOf: objectModelURL.appendingPathComponent(version1)),
