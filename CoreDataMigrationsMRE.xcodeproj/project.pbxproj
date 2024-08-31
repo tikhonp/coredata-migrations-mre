@@ -8,22 +8,90 @@
 
 /* Begin PBXBuildFile section */
 		4391121D2C83250600892E89 /* CoreDataMigrationsMREApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4391121C2C83250600892E89 /* CoreDataMigrationsMREApp.swift */; };
-		4391121F2C83250600892E89 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4391121E2C83250600892E89 /* Persistence.swift */; };
-		439112222C83250600892E89 /* CoreDataMigrationsMRE.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 439112202C83250600892E89 /* CoreDataMigrationsMRE.xcdatamodeld */; };
-		439112242C83250600892E89 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439112232C83250600892E89 /* ContentView.swift */; };
 		439112262C83250600892E89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 439112252C83250600892E89 /* Assets.xcassets */; };
-		4391122A2C83250600892E89 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 439112292C83250600892E89 /* Preview Assets.xcassets */; };
+		4391128F2C83256500892E89 /* Agent+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439112302C83256500892E89 /* Agent+CoreDataClass.swift */; };
+		439112922C83256500892E89 /* AgentAction+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439112342C83256500892E89 /* AgentAction+CoreDataClass.swift */; };
+		439112952C83256500892E89 /* AgentTask+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439112382C83256500892E89 /* AgentTask+CoreDataClass.swift */; };
+		439112972C83256500892E89 /* ClassLabel+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4391123B2C83256500892E89 /* ClassLabel+CoreDataClass.swift */; };
+		439112992C83256500892E89 /* Clinic+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4391123E2C83256500892E89 /* Clinic+CoreDataClass.swift */; };
+		4391129B2C83256500892E89 /* ClinicDoctor+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439112412C83256500892E89 /* ClinicDoctor+CoreDataClass.swift */; };
+		4391129D2C83256500892E89 /* Contract+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439112442C83256500892E89 /* Contract+CoreDataClass.swift */; };
+		439112A32C83256500892E89 /* ContractAgentParam+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4391124B2C83256500892E89 /* ContractAgentParam+CoreDataClass.swift */; };
+		439112A52C83256500892E89 /* AssistantModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4391124E2C83256500892E89 /* AssistantModels.swift */; };
+		439112A62C83256500892E89 /* ContractAttachment+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439112502C83256500892E89 /* ContractAttachment+CoreDataClass.swift */; };
+		439112A82C83256500892E89 /* ContractParam+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439112532C83256500892E89 /* ContractParam+CoreDataClass.swift */; };
+		439112AA2C83256500892E89 /* ContractSearchSuggestion+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439112562C83256500892E89 /* ContractSearchSuggestion+CoreDataClass.swift */; };
+		439112AB2C83256500892E89 /* FileAttachment+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439112582C83256500892E89 /* FileAttachment+CoreDataClass.swift */; };
+		439112AE2C83256500892E89 /* ImageAttachment+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4391125C2C83256500892E89 /* ImageAttachment+CoreDataClass.swift */; };
+		439112B02C83256500892E89 /* InfoAttachment+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4391125F2C83256500892E89 /* InfoAttachment+CoreDataClass.swift */; };
+		439112B62C83256500892E89 /* RelatedContract+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439112672C83256500892E89 /* RelatedContract+CoreDataClass.swift */; };
+		439112B82C83256500892E89 /* Scenario+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4391126A2C83256500892E89 /* Scenario+CoreDataClass.swift */; };
+		439112BB2C83256500892E89 /* ScenarioParam+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4391126E2C83256500892E89 /* ScenarioParam+CoreDataClass.swift */; };
+		439112BD2C83256500892E89 /* ScenarioParamOption+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439112712C83256500892E89 /* ScenarioParamOption+CoreDataClass.swift */; };
+		439112BE2C83256500892E89 /* TimeLimit+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439112742C83256500892E89 /* TimeLimit+CoreDataClass.swift */; };
+		439112C12C83256500892E89 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439112782C83256500892E89 /* User+CoreDataClass.swift */; };
+		439112C22C83256500892E89 /* CleanableByIdAndContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4391127A2C83256500892E89 /* CleanableByIdAndContract.swift */; };
+		439112C32C83256500892E89 /* CleanableByNameAndContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4391127B2C83256500892E89 /* CleanableByNameAndContract.swift */; };
+		439112C42C83256500892E89 /* CoreDataIdGetable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4391127C2C83256500892E89 /* CoreDataIdGetable.swift */; };
+		439112C62C83256500892E89 /* GetableByNameAndContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4391127E2C83256500892E89 /* GetableByNameAndContract.swift */; };
+		439112C82C83256500892E89 /* NSManagedObjectContext+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439112802C83256500892E89 /* NSManagedObjectContext+.swift */; };
+		439112C92C83256500892E89 /* NSPersistentContainer+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439112812C83256500892E89 /* NSPersistentContainer+.swift */; };
+		439112CA2C83256500892E89 /* ObjectNotFoundError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439112822C83256500892E89 /* ObjectNotFoundError.swift */; };
+		439112CB2C83256500892E89 /* Optional<String>+unwrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439112832C83256500892E89 /* Optional<String>+unwrap.swift */; };
+		439112CC2C83256500892E89 /* PersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439112842C83256500892E89 /* PersistenceService.swift */; };
+		439112CD2C83256500892E89 /* shortenName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439112852C83256500892E89 /* shortenName.swift */; };
+		439112CE2C83256500892E89 /* URL+storeURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439112862C83256500892E89 /* URL+storeURL.swift */; };
+		439112D02C8326C300892E89 /* Message+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439112CF2C8326C300892E89 /* Message+CoreDataClass.swift */; };
+		439112D22C832ACD00892E89 /* Medsenger.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4391127F2C83256500892E89 /* Medsenger.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		439112192C83250600892E89 /* CoreDataMigrationsMRE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataMigrationsMRE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4391121C2C83250600892E89 /* CoreDataMigrationsMREApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataMigrationsMREApp.swift; sourceTree = "<group>"; };
-		4391121E2C83250600892E89 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		439112212C83250600892E89 /* CoreDataMigrationsMRE.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataMigrationsMRE.xcdatamodel; sourceTree = "<group>"; };
-		439112232C83250600892E89 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		439112252C83250600892E89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		439112272C83250600892E89 /* CoreDataMigrationsMRE.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CoreDataMigrationsMRE.entitlements; sourceTree = "<group>"; };
-		439112292C83250600892E89 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		439112302C83256500892E89 /* Agent+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Agent+CoreDataClass.swift"; sourceTree = "<group>"; };
+		439112342C83256500892E89 /* AgentAction+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AgentAction+CoreDataClass.swift"; sourceTree = "<group>"; };
+		439112382C83256500892E89 /* AgentTask+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AgentTask+CoreDataClass.swift"; sourceTree = "<group>"; };
+		4391123B2C83256500892E89 /* ClassLabel+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ClassLabel+CoreDataClass.swift"; sourceTree = "<group>"; };
+		4391123E2C83256500892E89 /* Clinic+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Clinic+CoreDataClass.swift"; sourceTree = "<group>"; };
+		439112412C83256500892E89 /* ClinicDoctor+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ClinicDoctor+CoreDataClass.swift"; sourceTree = "<group>"; };
+		439112442C83256500892E89 /* Contract+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Contract+CoreDataClass.swift"; sourceTree = "<group>"; };
+		4391124B2C83256500892E89 /* ContractAgentParam+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ContractAgentParam+CoreDataClass.swift"; sourceTree = "<group>"; };
+		4391124E2C83256500892E89 /* AssistantModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssistantModels.swift; sourceTree = "<group>"; };
+		439112502C83256500892E89 /* ContractAttachment+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ContractAttachment+CoreDataClass.swift"; sourceTree = "<group>"; };
+		439112532C83256500892E89 /* ContractParam+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ContractParam+CoreDataClass.swift"; sourceTree = "<group>"; };
+		439112562C83256500892E89 /* ContractSearchSuggestion+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ContractSearchSuggestion+CoreDataClass.swift"; sourceTree = "<group>"; };
+		439112582C83256500892E89 /* FileAttachment+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FileAttachment+CoreDataClass.swift"; sourceTree = "<group>"; };
+		4391125C2C83256500892E89 /* ImageAttachment+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ImageAttachment+CoreDataClass.swift"; sourceTree = "<group>"; };
+		4391125F2C83256500892E89 /* InfoAttachment+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "InfoAttachment+CoreDataClass.swift"; sourceTree = "<group>"; };
+		439112672C83256500892E89 /* RelatedContract+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RelatedContract+CoreDataClass.swift"; sourceTree = "<group>"; };
+		4391126A2C83256500892E89 /* Scenario+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Scenario+CoreDataClass.swift"; sourceTree = "<group>"; };
+		4391126E2C83256500892E89 /* ScenarioParam+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ScenarioParam+CoreDataClass.swift"; sourceTree = "<group>"; };
+		439112712C83256500892E89 /* ScenarioParamOption+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ScenarioParamOption+CoreDataClass.swift"; sourceTree = "<group>"; };
+		439112742C83256500892E89 /* TimeLimit+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TimeLimit+CoreDataClass.swift"; sourceTree = "<group>"; };
+		439112782C83256500892E89 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		4391127A2C83256500892E89 /* CleanableByIdAndContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CleanableByIdAndContract.swift; sourceTree = "<group>"; };
+		4391127B2C83256500892E89 /* CleanableByNameAndContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CleanableByNameAndContract.swift; sourceTree = "<group>"; };
+		4391127C2C83256500892E89 /* CoreDataIdGetable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataIdGetable.swift; sourceTree = "<group>"; };
+		4391127E2C83256500892E89 /* GetableByNameAndContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetableByNameAndContract.swift; sourceTree = "<group>"; };
+		439112802C83256500892E89 /* NSManagedObjectContext+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSManagedObjectContext+.swift"; sourceTree = "<group>"; };
+		439112812C83256500892E89 /* NSPersistentContainer+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSPersistentContainer+.swift"; sourceTree = "<group>"; };
+		439112822C83256500892E89 /* ObjectNotFoundError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectNotFoundError.swift; sourceTree = "<group>"; };
+		439112832C83256500892E89 /* Optional<String>+unwrap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Optional<String>+unwrap.swift"; sourceTree = "<group>"; };
+		439112842C83256500892E89 /* PersistenceService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistenceService.swift; sourceTree = "<group>"; };
+		439112852C83256500892E89 /* shortenName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = shortenName.swift; sourceTree = "<group>"; };
+		439112862C83256500892E89 /* URL+storeURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URL+storeURL.swift"; sourceTree = "<group>"; };
+		439112882C83256500892E89 /* Medsenger_2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Medsenger_2.xcdatamodel; sourceTree = "<group>"; };
+		439112892C83256500892E89 /* Medsenger_7.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Medsenger_7.xcdatamodel; sourceTree = "<group>"; };
+		4391128A2C83256500892E89 /* Medsenger_4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Medsenger_4.xcdatamodel; sourceTree = "<group>"; };
+		4391128B2C83256500892E89 /* Medsenger_6.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Medsenger_6.xcdatamodel; sourceTree = "<group>"; };
+		4391128C2C83256500892E89 /* Medsenger_3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Medsenger_3.xcdatamodel; sourceTree = "<group>"; };
+		4391128D2C83256500892E89 /* Medsenger.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Medsenger.xcdatamodel; sourceTree = "<group>"; };
+		4391128E2C83256500892E89 /* Medsenger_5.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Medsenger_5.xcdatamodel; sourceTree = "<group>"; };
+		439112CF2C8326C300892E89 /* Message+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Message+CoreDataClass.swift"; sourceTree = "<group>"; };
+		439112D12C83291C00892E89 /* Medsenger_8.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Medsenger_8.xcdatamodel; sourceTree = "<group>"; };
+		439112D32C832B2F00892E89 /* Medsenger_8.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Medsenger_8.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,23 +124,237 @@
 		4391121B2C83250600892E89 /* CoreDataMigrationsMRE */ = {
 			isa = PBXGroup;
 			children = (
+				439112872C83256500892E89 /* MedsengerStorage */,
 				4391121C2C83250600892E89 /* CoreDataMigrationsMREApp.swift */,
-				4391121E2C83250600892E89 /* Persistence.swift */,
-				439112232C83250600892E89 /* ContentView.swift */,
 				439112252C83250600892E89 /* Assets.xcassets */,
 				439112272C83250600892E89 /* CoreDataMigrationsMRE.entitlements */,
-				439112202C83250600892E89 /* CoreDataMigrationsMRE.xcdatamodeld */,
-				439112282C83250600892E89 /* Preview Content */,
 			);
 			path = CoreDataMigrationsMRE;
 			sourceTree = "<group>";
 		};
-		439112282C83250600892E89 /* Preview Content */ = {
+		439112332C83256500892E89 /* Agent */ = {
 			isa = PBXGroup;
 			children = (
-				439112292C83250600892E89 /* Preview Assets.xcassets */,
+				439112302C83256500892E89 /* Agent+CoreDataClass.swift */,
 			);
-			path = "Preview Content";
+			path = Agent;
+			sourceTree = "<group>";
+		};
+		439112372C83256500892E89 /* AgentAction */ = {
+			isa = PBXGroup;
+			children = (
+				439112342C83256500892E89 /* AgentAction+CoreDataClass.swift */,
+			);
+			path = AgentAction;
+			sourceTree = "<group>";
+		};
+		4391123A2C83256500892E89 /* AgentTask */ = {
+			isa = PBXGroup;
+			children = (
+				439112382C83256500892E89 /* AgentTask+CoreDataClass.swift */,
+			);
+			path = AgentTask;
+			sourceTree = "<group>";
+		};
+		4391123D2C83256500892E89 /* ClassLabel */ = {
+			isa = PBXGroup;
+			children = (
+				4391123B2C83256500892E89 /* ClassLabel+CoreDataClass.swift */,
+			);
+			path = ClassLabel;
+			sourceTree = "<group>";
+		};
+		439112402C83256500892E89 /* Clinic */ = {
+			isa = PBXGroup;
+			children = (
+				4391123E2C83256500892E89 /* Clinic+CoreDataClass.swift */,
+			);
+			path = Clinic;
+			sourceTree = "<group>";
+		};
+		439112432C83256500892E89 /* ClinicDoctor */ = {
+			isa = PBXGroup;
+			children = (
+				439112412C83256500892E89 /* ClinicDoctor+CoreDataClass.swift */,
+			);
+			path = ClinicDoctor;
+			sourceTree = "<group>";
+		};
+		439112492C83256500892E89 /* Contract */ = {
+			isa = PBXGroup;
+			children = (
+				439112442C83256500892E89 /* Contract+CoreDataClass.swift */,
+			);
+			path = Contract;
+			sourceTree = "<group>";
+		};
+		4391124C2C83256500892E89 /* ContractAgentParam */ = {
+			isa = PBXGroup;
+			children = (
+				4391124B2C83256500892E89 /* ContractAgentParam+CoreDataClass.swift */,
+			);
+			path = ContractAgentParam;
+			sourceTree = "<group>";
+		};
+		4391124F2C83256500892E89 /* ContractAssistant */ = {
+			isa = PBXGroup;
+			children = (
+				4391124E2C83256500892E89 /* AssistantModels.swift */,
+			);
+			path = ContractAssistant;
+			sourceTree = "<group>";
+		};
+		439112522C83256500892E89 /* ContractAttachment */ = {
+			isa = PBXGroup;
+			children = (
+				439112502C83256500892E89 /* ContractAttachment+CoreDataClass.swift */,
+			);
+			path = ContractAttachment;
+			sourceTree = "<group>";
+		};
+		439112552C83256500892E89 /* ContractParam */ = {
+			isa = PBXGroup;
+			children = (
+				439112532C83256500892E89 /* ContractParam+CoreDataClass.swift */,
+			);
+			path = ContractParam;
+			sourceTree = "<group>";
+		};
+		439112572C83256500892E89 /* ContractSearchSuggestion */ = {
+			isa = PBXGroup;
+			children = (
+				439112562C83256500892E89 /* ContractSearchSuggestion+CoreDataClass.swift */,
+			);
+			path = ContractSearchSuggestion;
+			sourceTree = "<group>";
+		};
+		4391125B2C83256500892E89 /* FileAttachment */ = {
+			isa = PBXGroup;
+			children = (
+				439112582C83256500892E89 /* FileAttachment+CoreDataClass.swift */,
+			);
+			path = FileAttachment;
+			sourceTree = "<group>";
+		};
+		4391125E2C83256500892E89 /* ImageAttachment */ = {
+			isa = PBXGroup;
+			children = (
+				4391125C2C83256500892E89 /* ImageAttachment+CoreDataClass.swift */,
+			);
+			path = ImageAttachment;
+			sourceTree = "<group>";
+		};
+		439112612C83256500892E89 /* InfoAttachment */ = {
+			isa = PBXGroup;
+			children = (
+				4391125F2C83256500892E89 /* InfoAttachment+CoreDataClass.swift */,
+			);
+			path = InfoAttachment;
+			sourceTree = "<group>";
+		};
+		439112662C83256500892E89 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				439112CF2C8326C300892E89 /* Message+CoreDataClass.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		439112692C83256500892E89 /* RelatedContract */ = {
+			isa = PBXGroup;
+			children = (
+				439112672C83256500892E89 /* RelatedContract+CoreDataClass.swift */,
+			);
+			path = RelatedContract;
+			sourceTree = "<group>";
+		};
+		4391126C2C83256500892E89 /* Scenario */ = {
+			isa = PBXGroup;
+			children = (
+				4391126A2C83256500892E89 /* Scenario+CoreDataClass.swift */,
+			);
+			path = Scenario;
+			sourceTree = "<group>";
+		};
+		4391126F2C83256500892E89 /* ScenarioParam */ = {
+			isa = PBXGroup;
+			children = (
+				4391126E2C83256500892E89 /* ScenarioParam+CoreDataClass.swift */,
+			);
+			path = ScenarioParam;
+			sourceTree = "<group>";
+		};
+		439112722C83256500892E89 /* ScenarioParamOption */ = {
+			isa = PBXGroup;
+			children = (
+				439112712C83256500892E89 /* ScenarioParamOption+CoreDataClass.swift */,
+			);
+			path = ScenarioParamOption;
+			sourceTree = "<group>";
+		};
+		439112732C83256500892E89 /* Scenarios */ = {
+			isa = PBXGroup;
+			children = (
+				4391126C2C83256500892E89 /* Scenario */,
+				4391126F2C83256500892E89 /* ScenarioParam */,
+				439112722C83256500892E89 /* ScenarioParamOption */,
+			);
+			path = Scenarios;
+			sourceTree = "<group>";
+		};
+		439112762C83256500892E89 /* TimeLimit */ = {
+			isa = PBXGroup;
+			children = (
+				439112742C83256500892E89 /* TimeLimit+CoreDataClass.swift */,
+			);
+			path = TimeLimit;
+			sourceTree = "<group>";
+		};
+		439112792C83256500892E89 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				439112782C83256500892E89 /* User+CoreDataClass.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		439112872C83256500892E89 /* MedsengerStorage */ = {
+			isa = PBXGroup;
+			children = (
+				439112332C83256500892E89 /* Agent */,
+				439112372C83256500892E89 /* AgentAction */,
+				4391123A2C83256500892E89 /* AgentTask */,
+				4391123D2C83256500892E89 /* ClassLabel */,
+				439112402C83256500892E89 /* Clinic */,
+				439112432C83256500892E89 /* ClinicDoctor */,
+				439112492C83256500892E89 /* Contract */,
+				4391124C2C83256500892E89 /* ContractAgentParam */,
+				4391124F2C83256500892E89 /* ContractAssistant */,
+				439112522C83256500892E89 /* ContractAttachment */,
+				439112552C83256500892E89 /* ContractParam */,
+				439112572C83256500892E89 /* ContractSearchSuggestion */,
+				4391125B2C83256500892E89 /* FileAttachment */,
+				4391125E2C83256500892E89 /* ImageAttachment */,
+				439112612C83256500892E89 /* InfoAttachment */,
+				439112662C83256500892E89 /* Message */,
+				439112692C83256500892E89 /* RelatedContract */,
+				439112732C83256500892E89 /* Scenarios */,
+				439112762C83256500892E89 /* TimeLimit */,
+				439112792C83256500892E89 /* User */,
+				4391127A2C83256500892E89 /* CleanableByIdAndContract.swift */,
+				4391127B2C83256500892E89 /* CleanableByNameAndContract.swift */,
+				4391127C2C83256500892E89 /* CoreDataIdGetable.swift */,
+				4391127E2C83256500892E89 /* GetableByNameAndContract.swift */,
+				4391127F2C83256500892E89 /* Medsenger.xcdatamodeld */,
+				439112802C83256500892E89 /* NSManagedObjectContext+.swift */,
+				439112812C83256500892E89 /* NSPersistentContainer+.swift */,
+				439112822C83256500892E89 /* ObjectNotFoundError.swift */,
+				439112832C83256500892E89 /* Optional<String>+unwrap.swift */,
+				439112842C83256500892E89 /* PersistenceService.swift */,
+				439112852C83256500892E89 /* shortenName.swift */,
+				439112862C83256500892E89 /* URL+storeURL.swift */,
+			);
+			path = MedsengerStorage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,7 +415,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4391122A2C83250600892E89 /* Preview Assets.xcassets in Resources */,
 				439112262C83250600892E89 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,10 +426,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				439112222C83250600892E89 /* CoreDataMigrationsMRE.xcdatamodeld in Sources */,
+				439112C82C83256500892E89 /* NSManagedObjectContext+.swift in Sources */,
+				439112B02C83256500892E89 /* InfoAttachment+CoreDataClass.swift in Sources */,
+				439112922C83256500892E89 /* AgentAction+CoreDataClass.swift in Sources */,
+				439112CC2C83256500892E89 /* PersistenceService.swift in Sources */,
+				439112A52C83256500892E89 /* AssistantModels.swift in Sources */,
+				439112972C83256500892E89 /* ClassLabel+CoreDataClass.swift in Sources */,
 				4391121D2C83250600892E89 /* CoreDataMigrationsMREApp.swift in Sources */,
-				439112242C83250600892E89 /* ContentView.swift in Sources */,
-				4391121F2C83250600892E89 /* Persistence.swift in Sources */,
+				439112D02C8326C300892E89 /* Message+CoreDataClass.swift in Sources */,
+				439112CE2C83256500892E89 /* URL+storeURL.swift in Sources */,
+				439112BD2C83256500892E89 /* ScenarioParamOption+CoreDataClass.swift in Sources */,
+				439112AA2C83256500892E89 /* ContractSearchSuggestion+CoreDataClass.swift in Sources */,
+				439112C62C83256500892E89 /* GetableByNameAndContract.swift in Sources */,
+				439112C22C83256500892E89 /* CleanableByIdAndContract.swift in Sources */,
+				439112A32C83256500892E89 /* ContractAgentParam+CoreDataClass.swift in Sources */,
+				439112D22C832ACD00892E89 /* Medsenger.xcdatamodeld in Sources */,
+				4391129B2C83256500892E89 /* ClinicDoctor+CoreDataClass.swift in Sources */,
+				439112C42C83256500892E89 /* CoreDataIdGetable.swift in Sources */,
+				4391128F2C83256500892E89 /* Agent+CoreDataClass.swift in Sources */,
+				439112AB2C83256500892E89 /* FileAttachment+CoreDataClass.swift in Sources */,
+				439112A82C83256500892E89 /* ContractParam+CoreDataClass.swift in Sources */,
+				439112A62C83256500892E89 /* ContractAttachment+CoreDataClass.swift in Sources */,
+				439112C92C83256500892E89 /* NSPersistentContainer+.swift in Sources */,
+				439112C12C83256500892E89 /* User+CoreDataClass.swift in Sources */,
+				439112952C83256500892E89 /* AgentTask+CoreDataClass.swift in Sources */,
+				439112BE2C83256500892E89 /* TimeLimit+CoreDataClass.swift in Sources */,
+				439112B62C83256500892E89 /* RelatedContract+CoreDataClass.swift in Sources */,
+				439112992C83256500892E89 /* Clinic+CoreDataClass.swift in Sources */,
+				439112B82C83256500892E89 /* Scenario+CoreDataClass.swift in Sources */,
+				439112C32C83256500892E89 /* CleanableByNameAndContract.swift in Sources */,
+				439112CD2C83256500892E89 /* shortenName.swift in Sources */,
+				439112CB2C83256500892E89 /* Optional<String>+unwrap.swift in Sources */,
+				439112AE2C83256500892E89 /* ImageAttachment+CoreDataClass.swift in Sources */,
+				439112CA2C83256500892E89 /* ObjectNotFoundError.swift in Sources */,
+				4391129D2C83256500892E89 /* Contract+CoreDataClass.swift in Sources */,
+				439112BB2C83256500892E89 /* ScenarioParam+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +589,7 @@
 				CODE_SIGN_ENTITLEMENTS = CoreDataMigrationsMRE/CoreDataMigrationsMRE.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CoreDataMigrationsMRE/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = CRF22TKXX5;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -315,7 +627,7 @@
 				CODE_SIGN_ENTITLEMENTS = CoreDataMigrationsMRE/CoreDataMigrationsMRE.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CoreDataMigrationsMRE/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = CRF22TKXX5;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -369,13 +681,22 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		439112202C83250600892E89 /* CoreDataMigrationsMRE.xcdatamodeld */ = {
+		4391127F2C83256500892E89 /* Medsenger.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				439112212C83250600892E89 /* CoreDataMigrationsMRE.xcdatamodel */,
+				439112D32C832B2F00892E89 /* Medsenger_8.xcdatamodel */,
+				439112D12C83291C00892E89 /* Medsenger_8.xcdatamodel */,
+				439112882C83256500892E89 /* Medsenger_2.xcdatamodel */,
+				439112892C83256500892E89 /* Medsenger_7.xcdatamodel */,
+				4391128A2C83256500892E89 /* Medsenger_4.xcdatamodel */,
+				4391128B2C83256500892E89 /* Medsenger_6.xcdatamodel */,
+				4391128C2C83256500892E89 /* Medsenger_3.xcdatamodel */,
+				4391128D2C83256500892E89 /* Medsenger.xcdatamodel */,
+				4391128E2C83256500892E89 /* Medsenger_5.xcdatamodel */,
 			);
-			currentVersion = 439112212C83250600892E89 /* CoreDataMigrationsMRE.xcdatamodel */;
-			path = CoreDataMigrationsMRE.xcdatamodeld;
+			currentVersion = 439112892C83256500892E89 /* Medsenger_7.xcdatamodel */;
+			name = Medsenger.xcdatamodeld;
+			path = /Users/tikhon/projects/CoreDataMigrationsMRE/CoreDataMigrationsMRE/MedsengerStorage/Medsenger.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
