@@ -476,7 +476,7 @@
 			);
 			currentVersion = 43BC47682C91BBE70010EA86 /* Medsenger_7.xcdatamodel */;
 			name = Medsenger.xcdatamodeld;
-			path = "/Users/tikhon/Downloads/coredata-migrations-mre 2/CoreDataMigrationsMRE/MedsengerStorage/Medsenger.xcdatamodeld";
+			path = ../MedsengerStorage/Medsenger.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
@@ -484,3 +484,4 @@
 	};
 	rootObject = 439112112C83250600892E89 /* Project object */;
 }
+
