@@ -33,7 +33,7 @@
 		439112CC2C83256500892E89 /* PersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439112842C83256500892E89 /* PersistenceService.swift */; };
 		439112CE2C83256500892E89 /* URL+storeURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439112862C83256500892E89 /* URL+storeURL.swift */; };
 		439112D02C8326C300892E89 /* Message+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439112CF2C8326C300892E89 /* Message+CoreDataClass.swift */; };
-		43E3AA862C91B63F00499AA8 /* Medsenger.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 43E3AA7C2C91B63F00499AA8 /* Medsenger.xcdatamodeld */; };
+		43BC47702C91BBE70010EA86 /* Medsenger.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 43BC47662C91BBE70010EA86 /* Medsenger.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,15 +65,15 @@
 		439112842C83256500892E89 /* PersistenceService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistenceService.swift; sourceTree = "<group>"; };
 		439112862C83256500892E89 /* URL+storeURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URL+storeURL.swift"; sourceTree = "<group>"; };
 		439112CF2C8326C300892E89 /* Message+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Message+CoreDataClass.swift"; sourceTree = "<group>"; };
-		43E3AA7D2C91B63F00499AA8 /* Medsenger_2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Medsenger_2.xcdatamodel; sourceTree = "<group>"; };
-		43E3AA7E2C91B63F00499AA8 /* Medsenger_7.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Medsenger_7.xcdatamodel; sourceTree = "<group>"; };
-		43E3AA7F2C91B63F00499AA8 /* Medsenger_4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Medsenger_4.xcdatamodel; sourceTree = "<group>"; };
-		43E3AA802C91B63F00499AA8 /* Medsenger_8.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Medsenger_8.xcdatamodel; sourceTree = "<group>"; };
-		43E3AA812C91B63F00499AA8 /* Medsenger_6.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Medsenger_6.xcdatamodel; sourceTree = "<group>"; };
-		43E3AA822C91B63F00499AA8 /* Medsenger_3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Medsenger_3.xcdatamodel; sourceTree = "<group>"; };
-		43E3AA832C91B63F00499AA8 /* Medsenger.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Medsenger.xcdatamodel; sourceTree = "<group>"; };
-		43E3AA842C91B63F00499AA8 /* Medsenger_9.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Medsenger_9.xcdatamodel; sourceTree = "<group>"; };
-		43E3AA852C91B63F00499AA8 /* Medsenger_5.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Medsenger_5.xcdatamodel; sourceTree = "<group>"; };
+		43BC47672C91BBE70010EA86 /* Medsenger_2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Medsenger_2.xcdatamodel; sourceTree = "<group>"; };
+		43BC47682C91BBE70010EA86 /* Medsenger_7.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Medsenger_7.xcdatamodel; sourceTree = "<group>"; };
+		43BC47692C91BBE70010EA86 /* Medsenger_4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Medsenger_4.xcdatamodel; sourceTree = "<group>"; };
+		43BC476A2C91BBE70010EA86 /* Medsenger_8.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Medsenger_8.xcdatamodel; sourceTree = "<group>"; };
+		43BC476B2C91BBE70010EA86 /* Medsenger_6.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Medsenger_6.xcdatamodel; sourceTree = "<group>"; };
+		43BC476C2C91BBE70010EA86 /* Medsenger_3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Medsenger_3.xcdatamodel; sourceTree = "<group>"; };
+		43BC476D2C91BBE70010EA86 /* Medsenger.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Medsenger.xcdatamodel; sourceTree = "<group>"; };
+		43BC476E2C91BBE70010EA86 /* Medsenger_9.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Medsenger_9.xcdatamodel; sourceTree = "<group>"; };
+		43BC476F2C91BBE70010EA86 /* Medsenger_5.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Medsenger_5.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +117,7 @@
 		439112872C83256500892E89 /* MedsengerStorage */ = {
 			isa = PBXGroup;
 			children = (
-				43E3AA7C2C91B63F00499AA8 /* Medsenger.xcdatamodeld */,
+				43BC47662C91BBE70010EA86 /* Medsenger.xcdatamodeld */,
 				439112382C83256500892E89 /* AgentTask+CoreDataClass.swift */,
 				4391123B2C83256500892E89 /* ClassLabel+CoreDataClass.swift */,
 				4391123E2C83256500892E89 /* Clinic+CoreDataClass.swift */,
@@ -215,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43BC47702C91BBE70010EA86 /* Medsenger.xcdatamodeld in Sources */,
 				439112B02C83256500892E89 /* InfoAttachment+CoreDataClass.swift in Sources */,
 				439112CC2C83256500892E89 /* PersistenceService.swift in Sources */,
 				439112A52C83256500892E89 /* AssistantModels.swift in Sources */,
@@ -227,7 +228,6 @@
 				439112A32C83256500892E89 /* ContractAgentParam+CoreDataClass.swift in Sources */,
 				4391129B2C83256500892E89 /* ClinicDoctor+CoreDataClass.swift in Sources */,
 				4391128F2C83256500892E89 /* Agent+CoreDataClass.swift in Sources */,
-				43E3AA862C91B63F00499AA8 /* Medsenger.xcdatamodeld in Sources */,
 				439112AB2C83256500892E89 /* FileAttachment+CoreDataClass.swift in Sources */,
 				439112A82C83256500892E89 /* ContractParam+CoreDataClass.swift in Sources */,
 				439112A62C83256500892E89 /* ContractAttachment+CoreDataClass.swift in Sources */,
@@ -461,22 +461,22 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		43E3AA7C2C91B63F00499AA8 /* Medsenger.xcdatamodeld */ = {
+		43BC47662C91BBE70010EA86 /* Medsenger.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				43E3AA7D2C91B63F00499AA8 /* Medsenger_2.xcdatamodel */,
-				43E3AA7E2C91B63F00499AA8 /* Medsenger_7.xcdatamodel */,
-				43E3AA7F2C91B63F00499AA8 /* Medsenger_4.xcdatamodel */,
-				43E3AA802C91B63F00499AA8 /* Medsenger_8.xcdatamodel */,
-				43E3AA812C91B63F00499AA8 /* Medsenger_6.xcdatamodel */,
-				43E3AA822C91B63F00499AA8 /* Medsenger_3.xcdatamodel */,
-				43E3AA832C91B63F00499AA8 /* Medsenger.xcdatamodel */,
-				43E3AA842C91B63F00499AA8 /* Medsenger_9.xcdatamodel */,
-				43E3AA852C91B63F00499AA8 /* Medsenger_5.xcdatamodel */,
+				43BC47672C91BBE70010EA86 /* Medsenger_2.xcdatamodel */,
+				43BC47682C91BBE70010EA86 /* Medsenger_7.xcdatamodel */,
+				43BC47692C91BBE70010EA86 /* Medsenger_4.xcdatamodel */,
+				43BC476A2C91BBE70010EA86 /* Medsenger_8.xcdatamodel */,
+				43BC476B2C91BBE70010EA86 /* Medsenger_6.xcdatamodel */,
+				43BC476C2C91BBE70010EA86 /* Medsenger_3.xcdatamodel */,
+				43BC476D2C91BBE70010EA86 /* Medsenger.xcdatamodel */,
+				43BC476E2C91BBE70010EA86 /* Medsenger_9.xcdatamodel */,
+				43BC476F2C91BBE70010EA86 /* Medsenger_5.xcdatamodel */,
 			);
-			currentVersion = 43E3AA7E2C91B63F00499AA8 /* Medsenger_7.xcdatamodel */;
+			currentVersion = 43BC47682C91BBE70010EA86 /* Medsenger_7.xcdatamodel */;
 			name = Medsenger.xcdatamodeld;
-			path = "/Users/tikhon/Desktop/coredata-migrations-mre/CoreDataMigrationsMRE/MedsengerStorage/Medsenger.xcdatamodeld";
+			path = "/Users/tikhon/Downloads/coredata-migrations-mre 2/CoreDataMigrationsMRE/MedsengerStorage/Medsenger.xcdatamodeld";
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
