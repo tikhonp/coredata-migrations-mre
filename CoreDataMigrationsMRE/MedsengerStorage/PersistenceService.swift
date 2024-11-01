@@ -32,10 +32,10 @@ public actor PersistenceService {
             container.persistentStoreDescriptions = [storeDescription]
         }
         
-#if DEBUG && true
+#if DEBUG && false
         // CHECK if two versions of model can be migrated
         let version1 = "Medsenger_7.mom"
-        let version2 = "Medsenger_9.mom"
+        let version2 = "Medsenger_7_5.mom"
         
         do {
             guard let model1 =  NSManagedObjectModel(contentsOf: objectModelURL.appendingPathComponent(version1)),
@@ -58,9 +58,16 @@ public actor PersistenceService {
         }
 #endif
         
-        container.loadPersistentStores { _, error in
-            if let error {
-                fatalError(error.localizedDescription)
+        container.loadPersistentStores { description, error in
+            if let error, let url = description.url {
+                
+                let coordinator = self.container.persistentStoreCoordinator
+                
+                // Destroy
+                try? coordinator.destroyPersistentStore(at: url, type: .sqlite)
+                
+                // Re-create
+                _ =  try? coordinator.addPersistentStore(type: .sqlite, at: url)
             }
         }
         container.viewContext.mergePolicy = NSMergePolicy.mergeByPropertyObjectTrump

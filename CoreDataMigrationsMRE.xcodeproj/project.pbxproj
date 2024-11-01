@@ -38,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		430C51DD2C832E1000A48626 /* AgentAction+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AgentAction+CoreDataClass.swift"; sourceTree = "<group>"; };
+		4353376F2C9F2C7C0051511E /* Medsenger_7_5.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Medsenger_7_5.xcdatamodel; sourceTree = "<group>"; };
 		439112192C83250600892E89 /* CoreDataMigrationsMRE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataMigrationsMRE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4391121C2C83250600892E89 /* CoreDataMigrationsMREApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataMigrationsMREApp.swift; sourceTree = "<group>"; };
 		439112252C83250600892E89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -464,6 +465,7 @@
 		43BC47662C91BBE70010EA86 /* Medsenger.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				4353376F2C9F2C7C0051511E /* Medsenger_7_5.xcdatamodel */,
 				43BC47672C91BBE70010EA86 /* Medsenger_2.xcdatamodel */,
 				43BC47682C91BBE70010EA86 /* Medsenger_7.xcdatamodel */,
 				43BC47692C91BBE70010EA86 /* Medsenger_4.xcdatamodel */,
@@ -474,7 +476,7 @@
 				43BC476E2C91BBE70010EA86 /* Medsenger_9.xcdatamodel */,
 				43BC476F2C91BBE70010EA86 /* Medsenger_5.xcdatamodel */,
 			);
-			currentVersion = 43BC47682C91BBE70010EA86 /* Medsenger_7.xcdatamodel */;
+			currentVersion = 43BC476E2C91BBE70010EA86 /* Medsenger_9.xcdatamodel */;
 			name = Medsenger.xcdatamodeld;
 			path = ../MedsengerStorage/Medsenger.xcdatamodeld;
 			sourceTree = "<group>";
@@ -484,4 +486,3 @@
 	};
 	rootObject = 439112112C83250600892E89 /* Project object */;
 }
-

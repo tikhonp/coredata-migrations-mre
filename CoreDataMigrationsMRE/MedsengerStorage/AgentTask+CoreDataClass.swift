@@ -12,3 +12,8 @@ import CoreData
 public class AgentTask: NSManagedObject {
     
 }
+
+@objc(Avatar)
+public class Avatar: NSManagedObject {
+    
+}
